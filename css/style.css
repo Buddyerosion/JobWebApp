@@ -7,13 +7,13 @@ html, body, .container {
 }
 
 .logo {
-    font-family: chippewa-falls;
     float: left;
     font-size: 1.8em;
     color: #FAFAFF;
     margin: 15px;
     padding: 15px;
     font-weight: bold;
+    font-family: chippewa-falls;
 }
 .nav-menu {
     float: right;
@@ -32,8 +32,8 @@ html, body, .container {
 }
 
 #main-text {
-    font-family: chippewa-falls;
     font-size: 5em;
+    font-family: chippewa-falls;
 }
 
 .main {
