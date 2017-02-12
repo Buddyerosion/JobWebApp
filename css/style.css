@@ -7,8 +7,9 @@ html, body, .container {
 }
 
 .logo {
+    font-family: chippewa-falls;
     float: left;
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: #FAFAFF;
     margin: 15px;
     padding: 15px;
@@ -28,6 +29,11 @@ html, body, .container {
     color: #FAFAFF;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+#main-text {
+    font-family: chippewa-falls;
+    font-size: 5em;
 }
 
 .main {
