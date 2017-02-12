@@ -1,0 +1,82 @@
+html, body, .container {
+    height: 100%;
+}
+
+.container {
+    font-family: 'Cabin', sans-serif;
+}
+
+.logo {
+    float: left;
+    font-size: 1.5em;
+    color: #FAFAFF;
+    margin: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+.nav-menu {
+    float: right;
+    padding: 15px;
+    margin: 10px;
+}
+.nav-ul {
+    list-style: none;
+}
+.nav-li {
+    display: inline-block;
+    padding: 10px;
+    color: #FAFAFF;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.main {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    color: #FAFAFF;
+}
+
+#description {
+    font-size: 1.5em;
+}
+
+#news-text {
+    font-size: 1.3em;
+}
+
+#nameInput, #emailInput {
+    color: #30343F;
+}
+
+.send-btn:hover {
+    background: #56E39F;
+    transition: 0.4s ease-in;
+}
+
+.send-btn {
+    transform: 0.4 ease-in;
+}
+
+/* css for background video */
+.video {
+    position: fixed;
+    z-index: -1;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    filter: brightness(0.7);
+}
+
+.footer {
+    color: #FAFAFF;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
