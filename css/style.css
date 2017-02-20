@@ -77,6 +77,10 @@ html, body, .container {
     filter: brightness(0.7);
 }
 
+#mc_embed_signup {
+    color: #4A4A48;
+}
+
 .footer {
     color: #FAFAFF;
     position: absolute;
